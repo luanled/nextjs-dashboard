@@ -9,10 +9,7 @@ import { RevenueChartSkeleton, InvoiceSkeleton, CardsSkeleton } from '@/app/ui/s
 
 export default async function Page() {
   const {
-    numberOfInvoices,
-    numberOfCustomers,
-    totalPaidInvoices,
-    totalPendingInvoices,
+
   } = await fetchCardData();
   return (
     <main>
